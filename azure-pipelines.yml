@@ -17,7 +17,7 @@ steps:
 
 - task: Npm@1
   inputs:
-    command: 'install netgear'
+    command: 'install'
 
 - script: |
     npm install
