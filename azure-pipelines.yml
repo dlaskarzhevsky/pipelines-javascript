@@ -15,6 +15,10 @@ steps:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
+- task: Npm@1
+  inputs:
+    command: 'install netgear'
+
 - script: |
     npm install
     npm run build
